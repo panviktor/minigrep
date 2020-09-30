@@ -4,7 +4,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6334206-dd55-4425-9728-8c54ea3e6f9b" name="Default Changelist" comment="" />
+    <list default="true" id="d6334206-dd55-4425-9728-8c54ea3e6f9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
         <option value="Rust File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -44,9 +51,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Test lib::tests">
     <configuration name="Run minigrep" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
       <option name="command" value="run --package minigrep --bin minigrep" />
@@ -59,8 +66,21 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test lib::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="test --package minigrep --lib tests" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test lib::tests" />
         <item itemvalue="Cargo.Run minigrep" />
       </list>
     </recent_temporary>
@@ -98,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601480973636</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.0.0.2">
+      <created>1601481244475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601481244475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,44 +135,56 @@
     <option name="LAST_COMMIT_MESSAGE" value="0.0.0.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2" timestamp="1601480973499">
+    <state x="441" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601481744214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="441" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1601481744214" />
+    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2" timestamp="1601481244323">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="594" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601480603189" />
-    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1601480973499" />
+    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1601481244323" />
     <state x="592" y="337" key="Github.ShareDialog" timestamp="1601481086863">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="592" y="337" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1601481086863" />
-    <state width="336" height="2" key="GridCell.Tab.0.bottom" timestamp="1601476125492">
+    <state width="406" height="369" key="GridCell.Tab.0.bottom" timestamp="1601483733488">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="336" height="2" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601476125492" />
-    <state width="336" height="2" key="GridCell.Tab.0.center" timestamp="1601476125491">
+    <state width="406" height="369" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601483733488" />
+    <state width="336" height="2" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1601481717967" />
+    <state width="406" height="369" key="GridCell.Tab.0.center" timestamp="1601483733487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="336" height="2" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601476125491" />
-    <state width="336" height="2" key="GridCell.Tab.0.left" timestamp="1601476125490">
+    <state width="406" height="369" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601483733487" />
+    <state width="336" height="2" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1601481717966" />
+    <state width="406" height="369" key="GridCell.Tab.0.left" timestamp="1601483733486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="336" height="2" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601476125490" />
-    <state width="336" height="2" key="GridCell.Tab.0.right" timestamp="1601476125492">
+    <state width="406" height="369" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601483733486" />
+    <state width="336" height="2" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1601481717966" />
+    <state width="406" height="369" key="GridCell.Tab.0.right" timestamp="1601483733488">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="336" height="2" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601476125492" />
-    <state x="381" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601481158542">
+    <state width="406" height="369" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601483733488" />
+    <state width="336" height="2" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1601481717966" />
+    <state x="0" y="23" width="1440" height="821" key="SettingsEditor" timestamp="1601481375295">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="0" y="23" width="1440" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1601481375295" />
+    <state x="381" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601481511448">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="381" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601480841472" />
-    <state x="381" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601481158542" />
-    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601481098496">
+    <state x="381" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601481511448" />
+    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601481655917">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="881" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1601480870432" />
-    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1601481098496" />
-    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601481224955">
+    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1601481655917" />
+    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601481451106">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1601481224955" />
+    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1601481451106" />
   </component>
 </project>
