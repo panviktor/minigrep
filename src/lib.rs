@@ -3,8 +3,8 @@ use std::fs;
 use std::env;
 
 pub fn welcome_message() {
-    let app_name = "mini_grep";
-    let build = "0.0.1";
+    let app_name = "minigrep";
+    let build = "0.0.2";
     println!("\n This is my first console Rust app: {}, build {} \n", app_name, build);
 }
 
