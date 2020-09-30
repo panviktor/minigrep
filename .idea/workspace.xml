@@ -18,6 +18,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -85,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601480603321</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0.0.0.2">
+      <created>1601480973636</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601480973636</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -95,10 +108,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="0.0.0.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="594" y="25" key="CommitChangelistDialog2" timestamp="1601480603189">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2" timestamp="1601480973499">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="594" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601480603189" />
+    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1601480973499" />
+    <state x="592" y="337" key="Github.ShareDialog" timestamp="1601481086863">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="592" y="337" key="Github.ShareDialog/0.23.1440.821@0.23.1440.821" timestamp="1601481086863" />
     <state width="336" height="2" key="GridCell.Tab.0.bottom" timestamp="1601476125492">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -115,13 +133,19 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="336" height="2" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601476125492" />
-    <state x="381" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601480841472">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="381" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601481158542">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="381" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601480841472" />
-    <state x="881" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601480870432">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="381" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601481158542" />
+    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601481098496">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="881" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1601480870432" />
+    <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.821@0.23.1440.821" timestamp="1601481098496" />
+    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601481224955">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="521" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.821@0.23.1440.821" timestamp="1601481224955" />
   </component>
 </project>
