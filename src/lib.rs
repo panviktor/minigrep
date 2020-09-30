@@ -2,7 +2,6 @@ use std::error::Error;
 use std::fs;
 use std::env;
 
-
 pub fn welcome_message() {
     let app_name = "mini_grep";
     let build = "0.0.1";
@@ -32,7 +31,6 @@ impl Config {
 
 pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(config.filename)?;
-
     let results = if config.case_sensitive {
         search(&config.query, &contents)
     } else {
@@ -42,7 +40,6 @@ pub fn run(config: Config) -> Result<(), Box<dyn Error>> {
     for line in results {
         println!("{}", line);
     }
-
     Ok(())
 }
 
@@ -70,7 +67,6 @@ pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a st
 }
 
 //MARK: - Test
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -83,7 +79,6 @@ Rust:
 safe, fast, productive.
 Pick three.
 Duct tape.";
-
         assert_eq!(
             vec!["safe, fast, productive."],
             search(query, contents)
@@ -98,7 +93,6 @@ Rust:
 safe, fast, productive.
 Pick three.
 Trust me.";
-
         assert_eq!(
             vec!["Rust:", "Trust me."],
             search_case_insensitive(query, contents)

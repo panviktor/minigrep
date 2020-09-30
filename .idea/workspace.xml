@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6334206-dd55-4425-9728-8c54ea3e6f9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,24 +123,32 @@
       <option name="project" value="LOCAL" />
       <updated>1601481244475</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v0.0.2">
+      <created>1601486087517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601486087517</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="0.0.0.1" />
     <MESSAGE value="0.0.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.0.0.2" />
+    <MESSAGE value="v0.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601481744214">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="441" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1601481744214" />
-    <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2" timestamp="1601481244323">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="594" y="25" width="846" height="821" key="CommitChangelistDialog2" timestamp="1601486087348">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="594" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601480603189" />
+    <state x="594" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1601486087348" />
     <state x="594" y="23" width="846" height="821" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1601481244323" />
     <state x="592" y="337" key="Github.ShareDialog" timestamp="1601481086863">
       <screen x="0" y="23" width="1440" height="821" />
@@ -172,10 +178,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="0" y="23" width="1440" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1601481375295" />
-    <state x="381" y="165" key="Vcs.Push.Dialog.v2" timestamp="1601481511448">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="381" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601486107502">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="381" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601480841472" />
+    <state x="381" y="156" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1601486107502" />
     <state x="381" y="165" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1601481511448" />
     <state x="881" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601481655917">
       <screen x="0" y="23" width="1440" height="821" />
