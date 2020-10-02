@@ -4,7 +4,7 @@ use std::env;
 
 pub fn welcome_message() {
     let app_name = "minigrep";
-    let build = "0.0.2";
+    let build = "0.0.3.2";
     println!("\n This is my first console Rust app: {}, build {} \n", app_name, build);
 }
 
