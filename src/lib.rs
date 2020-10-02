@@ -62,7 +62,7 @@ pub fn search_case_insensitive<'a>(query: &str, contents: &'a str) -> Vec<&'a st
         .collect()
 }
 
-//MARK: - Test
+///MARK: - Tests
 #[cfg(test)]
 mod tests {
     use super::*;
