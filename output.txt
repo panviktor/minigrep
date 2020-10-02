@@ -1,5 +1,5 @@
 
- This is my first console Rust app: mini_grep, build 0.0.1 
+ This is my first console Rust app: minigrep, build 0.0.2 
 
 Are you nobody, too?
 How dreary to be somebody!
